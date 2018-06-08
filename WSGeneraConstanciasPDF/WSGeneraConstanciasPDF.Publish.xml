@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\inetpub\wwwroot\WSGeneraConstanciasPDF" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="Default Web Site/WSGeneraConstanciasPDF" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="True" profileName="QA" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="False">
+    <file relUrl="bin/OperacionesBD.pdb" publishTime="04/03/2014 12:04:00" />
+    <file relUrl="bin/ABCpdf.DLL" publishTime="02/19/2010 14:51:58" />
+    <file relUrl="Web.config" publishTime="02/26/2015 17:54:24" />
+    <file relUrl="bin/OperacionesBD.dll" publishTime="04/03/2014 12:04:00" />
+    <file relUrl="bin/WSGeneraConstanciasPDF.dll" publishTime="02/26/2015 17:54:21" />
+    <file relUrl="Generar.asmx" publishTime="07/17/2012 11:54:26" />
+    <file relUrl="bin/WSGeneraConstanciasPDF.pdb" publishTime="02/26/2015 17:54:21" />
+  </publishProfile>
+  <publishProfile publishUrl="\\hoperaciones\wsconstanciaspdf" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Produccion" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/OperacionesBD.pdb" publishTime="04/03/2014 12:04:00" />
+    <file relUrl="bin/ABCpdf.DLL" publishTime="02/19/2010 14:51:58" />
+    <file relUrl="Web.config" publishTime="02/26/2015 17:54:24" />
+    <file relUrl="bin/OperacionesBD.dll" publishTime="04/03/2014 12:04:00" />
+    <file relUrl="bin/WSGeneraConstanciasPDF.dll" publishTime="02/26/2015 17:54:21" />
+    <file relUrl="Generar.asmx" publishTime="07/17/2012 11:54:26" />
+    <file relUrl="bin/WSGeneraConstanciasPDF.pdb" publishTime="02/26/2015 17:54:21" />
+  </publishProfile>
+</publishData>

@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Constancias_DatosDeClienteXPrestamo" xml:space="preserve">
+    <value>SELECT Numero_Identificacion,
+       Curp,
+       Nombre_Completo,
+       Nombres,
+       Primer_Apellido,
+       Segundo_Apellido,
+       Fecha_De_Nacimiento,
+       '' AS Fecha_Nacimiento_Conjug,
+       '' AS Numero_Ident_Conjugue,
+       '' AS Nombre_Conjugue,
+       '' AS Primer_Apellido_Conjug,
+       '' AS Segundo_Apellido_Conjug
+FROM   AbT_Mg_Clientes
+WHERE  Codigo_Cliente = (SELECT Codigo_Cliente
+                         FROM   AbT_Pr_Prestamos
+                         WHERE  Numero_Prestamo = @Numero_Prestamo)</value>
+  </data>
+  <data name="Constancias_DatosDeCoacreditadoXPrestamo" xml:space="preserve">
+    <value>SELECT Nombre_Completo,
+       Nombres,
+       Primer_Apellido,
+       Segundo_Apellido,
+       Numero_Identificacion,
+       Curp
+FROM   AbT_Mg_Clientes
+WHERE  Codigo_Cliente = (SELECT Codigo_Cliente
+                         FROM   AbT_Pr_Contratos_X_Cliente Cxc
+                         WHERE  Cxc.Numero_Contrato = @Numero_Prestamo
+                                AND Cxc.Clase_De_Cliente = 'C')</value>
+  </data>
+  <data name="Constancias_DatosDeGarantiaXPrestamo" xml:space="preserve">
+    <value>SELECT B.Nomenclatura,
+       E.Descripcion AS Codigo_Barrio,
+       D.Nombre      AS Nombre_Mun,
+       C.Descripcion,
+       A.Nombre      AS Nombre_Dep,
+       B.Codigo_Postal
+FROM   AbC_Mg_Departamentos A,
+       AbT_Mg_Direcciones B,
+       AbC_Mg_Sectores C,
+       AbC_Mg_Municipios D,
+       AbC_Mg_Barrios_Colonia E
+WHERE  A.Codigo_Departamento = B.Codigo_Departamento
+       AND A.Codigo_Pais = B.Codigo_Pais
+       AND C.Codigo_Sector = B.Codigo_Sector
+       AND C.Codigo_Municipio = B.Codigo_Municipio
+       AND C.Codigo_Departamento = B.Codigo_Departamento
+       AND C.Codigo_Pais = B.Codigo_Pais
+       AND D.Codigo_Municipio = B.Codigo_Municipio
+       AND D.Codigo_Departamento = B.Codigo_Departamento
+       AND D.Codigo_Pais = B.Codigo_Pais
+       AND E.Codigo_Municipio = B.Codigo_Municipio
+       AND E.Codigo_Barrio = B.Codigo_Barrio
+       AND E.Codigo_Sector = B.Codigo_Sector
+       AND E.Codigo_Departamento = B.Codigo_Departamento
+       AND E.Codigo_Pais = B.Codigo_Pais
+       AND Codigo_Cliente = (SELECT Codigo_Cliente
+                             FROM   AbT_Pr_Prestamos
+                             WHERE  Numero_Prestamo = @Numero_Prestamo)
+       AND Codigo_Tipo_Direccion = '10'</value>
+  </data>
+  <data name="Constancias_DatosDeGarantiaXPrestamoXCoacreditado" xml:space="preserve">
+    <value>SELECT B.Nomenclatura,
+       E.Descripcion AS Codigo_Barrio,
+       D.Nombre      AS Nombre_Mun,
+       C.Descripcion,
+       A.Nombre      AS Nombre_Dep,
+       B.Codigo_Postal
+FROM   AbC_Mg_Departamentos A,
+       AbT_Mg_Direcciones B,
+       AbC_Mg_Sectores C,
+       AbC_Mg_Municipios D,
+       AbC_Mg_Barrios_Colonia E
+WHERE  A.Codigo_Departamento = B.Codigo_Departamento
+       AND A.Codigo_Pais = B.Codigo_Pais
+       AND C.Codigo_Sector = B.Codigo_Sector
+       AND C.Codigo_Municipio = B.Codigo_Municipio
+       AND C.Codigo_Departamento = B.Codigo_Departamento
+       AND C.Codigo_Pais = B.Codigo_Pais
+       AND D.Codigo_Municipio = B.Codigo_Municipio
+       AND D.Codigo_Departamento = B.Codigo_Departamento
+       AND D.Codigo_Pais = B.Codigo_Pais
+       AND E.Codigo_Municipio = B.Codigo_Municipio
+       AND E.Codigo_Barrio = B.Codigo_Barrio
+       AND E.Codigo_Sector = B.Codigo_Sector
+       AND E.Codigo_Departamento = B.Codigo_Departamento
+       AND E.Codigo_Pais = B.Codigo_Pais
+       AND Codigo_Cliente = (SELECT Codigo_Cliente
+                             FROM   AbT_Pr_Contratos_X_Cliente Cxc
+                             WHERE  Cxc.Numero_Contrato = @Numero_Prestamo
+                                    AND Cxc.Clase_De_Cliente = 'C')
+       AND Codigo_Tipo_Direccion = 10</value>
+  </data>
+  <data name="Constancias_DireccionGarantiaXPrestamo" xml:space="preserve">
+    <value>SELECT C.Ubicacion_Fisica,
+       G.Descripcion AS Colonia,
+       E.Descripcion AS Nombre_Sector,
+       F.Nombre      AS Municipio,
+       D.Nombre      AS Estado,
+       G.Codigo_Postal,
+       A.Estado      AS Estado_Prestamo
+FROM   AbT_Pr_Prestamos A,
+       AbT_Ga_Historico_Grados B,
+       AbT_Ga_Garantias C,
+       AbC_Mg_Departamentos D,
+       AbC_Mg_Sectores E,
+       AbC_Mg_Municipios F,
+       AbC_Mg_Barrios_Colonia G,
+       AbT_Mg_Clientes H
+WHERE  A.Codigo_Agencia = B.Codigo_Agencia
+       AND A.Codigo_Cliente = H.Codigo_Cliente
+       AND A.Numero_Prestamo = B.Numero_Cuenta
+       AND B.Numero_Garantia = C.Numero_Garantia
+       AND C.Codigo_Pais = D.Codigo_Pais
+       AND C.Codigo_Departamento = D.Codigo_Departamento
+       AND C.Codigo_Sector = E.Codigo_Sector
+       AND C.Codigo_Municipio = E.Codigo_Municipio
+       AND C.Codigo_Departamento = E.Codigo_Departamento
+       AND C.Codigo_Pais = E.Codigo_Pais
+       AND C.Codigo_Pais = F.Codigo_Pais
+       AND C.Codigo_Departamento = F.Codigo_Departamento
+       AND C.Codigo_Municipio = F.Codigo_Municipio
+       AND C.Codigo_Pais = G.Codigo_Pais
+       AND C.Codigo_Departamento = G.Codigo_Departamento
+       AND C.Codigo_Municipio = G.Codigo_Municipio
+       AND C.Codigo_Sector = G.Codigo_Sector
+       AND C.Codigo_Barrio = G.Codigo_Barrio
+       AND A.Estado IN ( 2, 6 )
+       AND A.Numero_Prestamo = @Numero_Prestamo
+UNION
+SELECT C.Ubicacion_Fisica,
+       G.Descripcion AS Colonia,
+       E.Descripcion AS Nombre_Sector,
+       F.Nombre      AS Municipio,
+       D.Nombre      AS Estado,
+       G.Codigo_Postal,
+       A.Estado      AS Estado_Prestamo
+FROM   AbT_Pr_Prestamos A,
+       AbT_Ga_Grados B,
+       AbT_Ga_Garantias C,
+       AbC_Mg_Departamentos D,
+       AbC_Mg_Sectores E,
+       AbC_Mg_Municipios F,
+       AbC_Mg_Barrios_Colonia G,
+       AbT_Mg_Clientes H
+WHERE  A.Codigo_Agencia = B.Codigo_Agencia
+       AND A.Codigo_Cliente = H.Codigo_Cliente
+       AND A.Numero_Prestamo = B.Numero_Cuenta
+       AND B.Numero_Garantia = C.Numero_Garantia
+       AND C.Codigo_Pais = D.Codigo_Pais
+       AND C.Codigo_Departamento = D.Codigo_Departamento
+       AND C.Codigo_Sector = E.Codigo_Sector
+       AND C.Codigo_Municipio = E.Codigo_Municipio
+       AND C.Codigo_Departamento = E.Codigo_Departamento
+       AND C.Codigo_Pais = E.Codigo_Pais
+       AND C.Codigo_Pais = F.Codigo_Pais
+       AND C.Codigo_Departamento = F.Codigo_Departamento
+       AND C.Codigo_Municipio = F.Codigo_Municipio
+       AND C.Codigo_Pais = G.Codigo_Pais
+       AND C.Codigo_Departamento = G.Codigo_Departamento
+       AND C.Codigo_Municipio = G.Codigo_Municipio
+       AND C.Codigo_Sector = G.Codigo_Sector
+       AND C.Codigo_Barrio = G.Codigo_Barrio
+       AND A.Estado IN ( 2, 6 )
+       AND A.Numero_Prestamo = @Numero_Prestamo
+UNION
+SELECT TOP 1 B.Ubicacion_Fisica,
+       A.Descripcion AS Colonia,
+       D.Descripcion AS Nombre_Sector,
+       C.Nombre      AS Municipio,
+       E.Nombre      AS Estado,
+       A.Codigo_Postal,
+       P.Estado      AS Estado_Prestamo
+FROM   AbC_Mg_Barrios_Colonia A
+       Join AbT_Ga_Garantias B
+         ON A.Codigo_Barrio = B.Codigo_Barrio
+            AND A.Codigo_Municipio = B.Codigo_Municipio
+            AND A.Codigo_Sector = B.Codigo_Sector
+            AND A.Codigo_Departamento = B.Codigo_Departamento
+            AND A.Codigo_Pais = B.Codigo_Pais
+       Join AbC_Mg_Municipios C
+         ON C.Codigo_Municipio = B.Codigo_Municipio
+            AND C.Codigo_Departamento = B.Codigo_Departamento
+            AND C.Codigo_Pais = B.Codigo_Pais
+       Join AbC_Mg_Sectores D
+         ON D.Codigo_Municipio = B.Codigo_Municipio
+            AND D.Codigo_Departamento = B.Codigo_Departamento
+            AND D.Codigo_Sector = B.Codigo_Sector
+            AND D.Codigo_Pais = B.Codigo_Pais
+       Join AbC_Mg_Departamentos E
+         ON E.Codigo_Departamento = B.Codigo_Departamento
+            AND E.Codigo_Pais = B.Codigo_Pais
+       Join AbT_Ga_Grados Ga
+         ON Ga.Numero_Garantia = B.Numero_Garantia
+       Join AbT_Pr_Prestamos P
+         ON P.Numero_Prestamo = Ga.Numero_Cuenta
+WHERE  P.Estado IN ( 1, 9 )
+       AND Ga.Numero_Cuenta = @Numero_Prestamo</value>
+  </data>
+  <data name="Constancias_EmpresasSiglasEmp" xml:space="preserve">
+    <value>SELECT *
+FROM   AbC_Empresas_Constancias
+WHERE  Siglas_Emp = @sBaseJit</value>
+  </data>
+  <data name="Constancias_HSCConstancias" xml:space="preserve">
+    <value>SELECT * 
+FROM   AbT_Hsc_constancias@@Anno_v3
+WHERE  Numero_Prestamo = @Numero_Prestamo
+       AND Codigo_SusDeu &lt;&gt; 0
+       AND Imprimir = 'S'</value>
+  </data>
+  <data name="Constancias_HSCConstancias2_Error" xml:space="preserve">
+    <value>SELECT '' Error
+FROM   AbT_Hsc_constancias@@Anno_v3
+WHERE  Numero_Prestamo = @Numero_Prestamo</value>
+  </data>
+  <data name="Constancias_HSCConstancias_Error" xml:space="preserve">
+    <value>SELECT Error
+FROM   AbT_Hsc_constancias@@Anno_v3
+WHERE  Numero_Prestamo = @Numero_Prestamo</value>
+  </data>
+</root>

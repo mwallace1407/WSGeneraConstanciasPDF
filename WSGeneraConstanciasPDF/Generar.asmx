@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="Generar.asmx.cs" Class="WSGeneraConstanciasPDF.Generar" %>

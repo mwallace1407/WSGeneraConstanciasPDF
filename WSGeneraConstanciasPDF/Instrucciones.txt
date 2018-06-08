@@ -1,0 +1,5 @@
+﻿(Opcional)    Crear con el mismo usuario que controla la app de inventarios.
+(Obligatorio) Dar al usuario permisos de escritura sobre la carpeta de la app.
+(Obligatorio) Dar al usuario permisos de escritura sobre la carpeta de C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files
+(Obligatorio) El equipo debe tener instalado ABCPDF 7.
+(Obligatorio) Establecer en el IIS dentro del Pool de la app, en configuración avanzada, la propiedad "Habilitar aplicaciones de 32 bits" a True.
